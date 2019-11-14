@@ -184,7 +184,6 @@ body {
 
 .user--nav {
   align-self: stretch;
-  position: relative;
   display: flex;
   align-items: center; }
   .user--nav > * {
@@ -197,8 +196,6 @@ body {
     background-color: var(--color-grey-light-2); }
   .user--nav__icon-box {
     position: relative; }
-    .user--nav__icon-box:hover .dropdown {
-      transform: scaleY(1); }
   .user--nav__icon {
     height: 2.25rem;
     width: 2.25rem;
@@ -216,67 +213,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center; }
-  .user--nav__user {
-    display: flex;
-    flex-direction: row; }
   .user--nav__user-photo {
     height: 3,75rem;
     width: 3.75rem;
     border-radius: 50%;
     margin-right: 1rem; }
-  .user--nav__user:hover .dropdown {
-    transform: scaleY(1); }
-
-.user__message {
-  display: flex;
-  padding: 2rem;
-  width: 100%;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  background-color: var(--color-grey-light-1); }
-  .user__message:not(:last-child) {
-    border-bottom: var(--line); }
-  .user__message:nth-child(2n) {
-    background-color: #fff; }
-    .user__message:nth-child(2n) .user__message--text {
-      order: 1;
-      margin-right: 0rem;
-      margin-left: 1rem;
-      background-color: var(--color-grey-light-2); }
-  .user__message--user {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; }
-  .user__message--text {
-    width: 25rem;
-    margin-right: 1rem;
-    padding: 1rem;
-    background-color: #fff; }
-  .user__message--image {
-    width: 50%;
-    border-radius: 50%; }
-
-.dropdown {
-  position: absolute;
-  top: 7rem;
-  right: 0rem;
-  backface-visibility: hidden;
-  display: flex;
-  flex-direction: column;
-  background-color: #fff;
-  z-index: 110;
-  transform: scaleY(0);
-  transform-origin: top;
-  transition: transform .2s; }
-  .dropdown a {
-    text-decoration: none;
-    padding: 1rem 5rem;
-    background-color: #fff;
-    color: var(--color-grey-dark-2); }
-    .dropdown a:hover {
-      background-color: var(--color-grey-light-2); }
 
 .side--nav {
   font-size: 1.4rem;
@@ -582,7 +523,3 @@ body {
   .btn:focus {
     outline: none;
     animation: pulsate 1s infinite; }
-
-.scroll-box {
-  max-height: 30rem;
-  overflow-y: scroll; }
