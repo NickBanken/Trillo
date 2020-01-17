@@ -5,4 +5,4 @@ I have learnt a lot by following his tutorials, and discovered many CSS/SASS rel
 
 My goal was to master SASS, while it takes time and practice to master something, I surely do feel like I'm on the right track.
 
-Click [here](https://nickbanken.github.io/trillo/) to see the website.
+Click [here](https://nickbanken.github.io/Trillo/) to see the website.
